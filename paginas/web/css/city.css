@@ -1,0 +1,245 @@
+.cityBanner {
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.cityInfo {
+  width: 95%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoButton {
+  width: 100%;
+  text-align: right;
+}
+
+
+.addInfoButton {
+  margin-top: -20px;
+  width: 250px;
+  height: 50px;
+  border-radius: 0px;
+  border: none;
+  font-size: 20px;
+  font-family: 'LaoSans Pro', sans-serif;
+  color: #000;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.062);
+  background-color: #5DB33A;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.cityTitle {
+  font-size: 78px;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Jaldi Bold', sans-serif;
+  z-index: 2;
+  -webkit-text-stroke: 1px #242424;
+  text-shadow: 0px 0px 10px rgb(190, 190, 190);
+}
+
+.containerDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.cityDescription {
+  font-size: 20px;
+  font-family: 'LaoSans Pro', sans-serif;
+  color: #000000;
+  z-index: 2;
+  font-style: italic;
+  -webkit-text-stroke: #000 0.5px;
+  width: 70%;
+}
+
+.rateStar {
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.checked {
+  color: orange;
+  -webkit-text-stroke: orange 1px;
+  cursor: pointer;
+}
+
+.imageOverlay {
+  margin-top: -90px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.973), rgba(234, 223, 223, 0.008));
+  z-index: 1;
+}
+
+.reviewTitle {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 48px;
+  color: #494949;
+  justify-content: left;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.reviewsSection {
+  display: flex;
+}
+
+.reviewCard {
+  background-color: #FBFBFB;
+  padding: 12px;
+  border-radius: 12px;
+  width: 345px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.048);
+  margin: 60px;
+  margin-top: 40px;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.reviewer {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.reviewDate {
+  font-family: 'InriaSans Regular', sans-serif;
+  font-size: 20px;
+  color: #5f5f5f;
+}
+
+.rateStar {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.reviewText {
+  font-family: 'Inter Light', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.reviewVotes {
+  display: flex;
+  justify-content: center;
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 20px;
+}
+
+.reviewVotesUp {
+  display: flex;
+}
+
+.voteTextUp {
+  color: #5DB33A;
+}
+
+.reviewVotesDown {
+  display: flex;
+  margin-left: 10px;
+}
+
+.voteTextDown {
+  color: #E67B83;
+}
+
+.voteImg {
+  width: 17px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.loadMore {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 20px;
+  color: #494949;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  -webkit-text-stroke: #494949 0.5px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.cardArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 320px;
+  background-color: #FFF;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.048);
+}
+
+.cardImg {
+  width: 320px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+}
+
+.cardInfo {
+  margin: 10px;
+  margin-top: 5px;
+}
+
+.cardTitle {
+  font-family: 'Jaldi Bold', sans-serif;
+  font-size: 30px;
+  color: #000;
+}
+
+.cardLink {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 24px;
+  color: #5DB33A;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-family: 'LaoSans Pro', sans-serif;
+  font-size: 16px;
+  color: #000;
+}

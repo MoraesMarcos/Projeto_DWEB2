@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Jaldi Bold';
+  src: url('../fonts/Jaldi-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'LaoSans Pro';
+  src: url('../fonts/LaoSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'InriaSans Bold';
+  src: url('../fonts/InriaSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Light';
+  src: url('../fonts/Inter-Light.ttf');
+}
+
+.navbar {
+  width: 100%;
+  height: 140px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.mainTitle {
+  font-size: 78px;
+  font-weight: bold;
+  color: #5C5C5C;
+  font-family: 'Jaldi Bold', sans-serif;
+  -webkit-text-stroke: 2px #00000094;
+}
+
+.logoImg {
+  width: 73px;
+  height: 70px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.navbarpagesGroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Lao Sans Pro', sans-serif;
+  color: #494949;
+  font-size: 24px;
+  justify-content: space-around;
+  width: 700px;
+  align-items: center;
+  -webkit-text-stroke: 1px #494949;
+}
+
+.navbarpagesGroup p {
+  padding-top: 15px;
+}
+
+.navbarpagesGroup a {
+  text-decoration: none;
+  color: #494949;
+}
+
+.pageDivider {
+  border-right: 1px solid #CDCDCD;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}

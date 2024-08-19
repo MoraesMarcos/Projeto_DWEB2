@@ -1,0 +1,215 @@
+.site-index {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 25px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.carouselTitle {
+  font-family: "InriaSans Bold";
+  font-size: 40px;
+}
+
+.carouselParagrafo {
+  font-family: "Inter Light";
+}
+
+.centerMain {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.checked {
+  color: orange;
+}
+
+mainSite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #5DB33A;
+  border-radius: 35px;
+  height: 500px;
+  width: 100%;
+}
+
+.carousel {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-itemCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: -1275px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 35px;
+}
+
+.carousel-caption {
+  color: #000000;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+  width: 80%;
+}
+
+.carousel-overlay {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(239, 231, 231, 0.934), rgba(234, 223, 223, 0.008));
+  z-index: 1;
+  border-radius: 35px;
+}
+
+.contentTitle {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 48px;
+  color: #494949;
+  -webkit-text-stroke: 1px #494949;
+}
+
+.filter {
+  display: flex;
+  background-color: #D9D9D9;
+  border-radius: 18px;
+  width: 115px;
+  height: 35px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.filter:hover {
+  cursor: pointer;
+}
+
+.filterImg {
+  width: 25px;
+  height: 22px;
+  margin-top: 7px;
+}
+
+.filterText {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 20px;
+  color: #494949;
+  margin-top: 2px;
+}
+
+.cityList {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: -60px;
+}
+
+.cityInfo {
+  width: 420px;
+  height: 490px;
+  background-color: #ebebeb;
+  margin: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cityImg {
+  width: 420px;
+  height: 223px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cityTitleContent {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 32px;
+}
+
+.cityDescription {
+  font-family: 'Inter Light', sans-serif;
+  font-size: 16px;
+  color: #494949;
+  font-style: italic;
+  -webkit-text-stroke: 1px #494949;
+}
+
+.exploreLink {
+  font-family: 'Lao Sans Pro', sans-serif;
+  font-size: 24px;
+  color: #5DB33A;
+  -webkit-text-stroke: 2px #5DB33A;
+  text-align: right;
+}
+
+.exploreLink a {
+  text-decoration: none;
+  color: #5DB33A;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+}
+
+.filtersArea {
+  display: flex;
+  margin-top: 5px;
+}
+
+.searchInput {
+  width: 350px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #F9F9F9;
+  border: none;
+}
+
+.textInput {
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  margin-top: 20px;
+  padding-left: 25px;
+  font-size: 20px;
+  font-family: 'Jaldi Regular', sans-serif;
+  border: 1px solid #d9d9d921;
+}

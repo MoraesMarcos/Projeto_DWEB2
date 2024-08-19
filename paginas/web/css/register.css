@@ -1,0 +1,60 @@
+.site-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.profileImage {
+  height: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.selectedImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.signupButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'InriaSans Bold';
+}
+
+.buttonStyle {
+  width: 180px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #FFA500;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+}
+
+.textArea {
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}

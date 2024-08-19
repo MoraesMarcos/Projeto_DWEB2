@@ -1,0 +1,247 @@
+.site-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.user-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.helloUser {
+  font-size: 64px;
+  font-family: 'InriaSans Regular', sans-serif;
+}
+
+.userCard {
+  display: flex;
+}
+
+.userImg {
+  width: 180px;
+  height: 180px;
+}
+
+.userCardText {
+  margin-left: 10px;
+  padding: 20px;
+  font-family: 'Jaldi Regular', sans-serif;
+  color: #494949;
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.userCardInfo {
+  margin-top: -20px;
+}
+
+.infoEdit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editLabel {
+  font-family: 'Jaldi Regular', sans-serif;
+  font-size: 13px;
+  color: #507DB2;
+  margin-top: -15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.logoutButton {
+  margin-top: -20px;
+  width: 250px;
+  height: 50px;
+  border-radius: 0px;
+  background-color: #FED22B;
+  border: none;
+  font-size: 20px;
+  font-family: 'Leo Sans Pro', sans-serif;
+  color: #000;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+}
+
+.contentTitle {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 48px;
+  color: #494949;
+  -webkit-text-stroke: 1px #494949;
+}
+
+.filtersArea {
+  display: flex;
+  margin-top: 5px;
+}
+
+.filter {
+  display: flex;
+  background-color: #D9D9D9;
+  border-radius: 18px;
+  width: 115px;
+  height: 35px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.filter:hover {
+  cursor: pointer;
+}
+
+.filterImg {
+  width: 25px;
+  height: 22px;
+  margin-top: 7px;
+}
+
+.filterText {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 20px;
+  color: #494949;
+  margin-top: 2px;
+}
+
+.searchInput {
+  width: 350px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #F9F9F9;
+  border: none;
+}
+
+.textInput {
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F9F9F9;
+  margin-top: 20px;
+  padding-left: 25px;
+  font-size: 20px;
+  font-family: 'Jaldi Regular', sans-serif;
+  border: 1px solid #d9d9d921;
+}
+
+.reviewTitle {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 36px;
+  color: #494949;
+  justify-content: left;
+  width: 90%;
+}
+
+.reviewsSection {
+  display: flex;
+}
+
+.reviewCard {
+  margin-top: 20px;
+  background-color: #FBFBFB;
+  padding: 12px;
+  border-radius: 12px;
+  width: 345px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.048);
+  margin: 20px;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewCity {
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 32px;
+  color: #000;
+}
+
+.reviewDate {
+  font-family: 'InriaSans Regular', sans-serif;
+  font-size: 20px;
+  color: #5f5f5f;
+}
+
+.rateStar {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.reviewText {
+  font-family: 'Inter Light', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.reviewVotes {
+  display: flex;
+  justify-content: center;
+  font-family: 'InriaSans Bold', sans-serif;
+  font-size: 20px;
+}
+
+.reviewVotesUp {
+  display: flex;
+}
+
+.voteTextUp {
+  color: #5DB33A;
+}
+
+.reviewVotesDown {
+  display: flex;
+  margin-left: 10px;
+}
+
+.voteTextDown {
+  color: #E67B83;
+}
+
+.voteImg {
+  width: 17px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.removeReview {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 20px;
+  color: #DA2F3C;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loadMore {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 20px;
+  color: #494949;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-text-stroke: #494949 0.5px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
